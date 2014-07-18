@@ -19,8 +19,8 @@ you about it until the ending of the world.
  * Panels 3.3+
  * PHP 5.3+
  * JQuery Update 2.x (with JQuery version set to 1.7+)
- * A Bootstrap 3.0+ library (read below in Installing Bootstrap)
- *  Optional but highly recommended: Panopoly Theme.
+ * Optional: A custom Bootstrap 3.0+ library (read below in Installing Bootstrap)
+ * Optional but highly recommended: Panopoly Theme.
  * Optional: A custom Bootstrap library.
 
 The easiest way to satisfy all of these requirements is to just start with
@@ -44,14 +44,13 @@ documentation on creating a basic subtheme
 Luckily, Kalatheme features a pretty neat subtheme generation tool that will
 automatically set everything up for you and allow you to customize your
 subtheme.
-https://drupal.org/node/2167149
-
+https://github.com/drupalprojects/kalatheme/wiki/Setup-and-Installation
 
 MANUALLY INSTALLING BOOTSTRAP
 -----------------------------
-Kalatheme doesn't do much without a Bootstrap Library so you are going to need
-to shop around for one.
-
+As of version 3.0, Kalatheme doesn't need a manually installed Bootstrap Library. 
+Our subtheme generator will fetch a pre-made custom version of Bootstrap from bootswatch. But if you'd rather go custom, here are some options:
+ 
  * To get the standard Bootstrap library, or to customize that library:
  http://getbootstrap.com/
 
@@ -60,7 +59,7 @@ to shop around for one.
 
  * If you are looking to rool with a custom version of Bootstrap try out
  http://getbootstrap.com/customize/
- https://drupal.org/node/2167149
+https://github.com/drupalprojects/kalatheme/wiki/Using-custom-Bootstrap-Libraries
 
  * If you don't mind paying for a little extra:
  http://wrapbootstrap.com/
@@ -116,31 +115,30 @@ KEY FEATURES
  * Settings
  On the settings page for Kalatheme you can configure how you want the style
  plugin to work.
- https://drupal.org/node/2167213
+https://github.com/drupalprojects/kalatheme/wiki/Kalatheme-settings-and-config
 
  * Style Plugin
  When you choose to "Customize this page" using the Panels In-Place Editor you
  gain access to a bunch of customization tools provided by Kalatheme. Select the
  paintbrush on the panels pane or region you want to edit, choose
  "Kalacustomize" and hit next.
- https://drupal.org/node/2167217
+https://github.com/drupalprojects/kalatheme/wiki/Styles-Plugin
 
- * Views Grid
+ * Grid Systen
  Any content pane view that is made with the grid display and that has an
  amount of columns that can evenly divide the amount of columns in your
  responsive grid (12 by default) will be automatically responsive. You can
  also implement a custom size grid.
- https://drupal.org/node/2167219
+https://github.com/drupalprojects/kalatheme/wiki/Dynamic-Grid-System
 
  * Responsive Menu and Toggling
  The "main-menu" menu will automatically dropdown for subitems. It will also
  automatically "responsify" on tablet and phone. You can also choose what
  device you want each pane to show up on.
- https://drupal.org/node/2167215
+https://github.com/drupalprojects/kalatheme/wiki/Responsive-Toggling
 
  * One Region Theme Nirvana with Panels Layouts
- https://drupal.org/node/2167223
- https://drupal.org/node/2167225
+ https://github.com/drupalprojects/kalatheme/wiki/Theming-with-One-Region
+https://github.com/drupalprojects/kalatheme/wiki/Panels-Layouts
 
- * SASS and COMPASS Support
- https://drupal.org/node/2167227
+
