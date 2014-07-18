@@ -38,8 +38,7 @@ AUTOMATIC SETUP & SUBTHEMES
 ---------------------------
 Kalatheme is meant to be the base theme that is used to build more powerful
 subthemes. Subthemes inherit almost all of the propoerties of their base theme
-so you can reduce theme clutter and start on the 10th floor. Here is some
-documentation on creating a basic subtheme
+so you can reduce theme clutter and start on the 10th floor.
 
 Luckily, Kalatheme features a pretty neat subtheme generation tool that will
 automatically set everything up for you and allow you to customize your
@@ -110,8 +109,8 @@ files in a KalaSUBtheme.
 You also do not need to have the minified files to get this to work but they are
 highly recommended for better performance.
 
-KEY FEATURES
-------------
+KEY FEATURES OF KALATHEME
+-------------------------
  * Settings
  On the settings page for Kalatheme you can configure how you want the style
  plugin to work.
